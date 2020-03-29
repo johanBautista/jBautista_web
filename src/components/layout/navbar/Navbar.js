@@ -39,7 +39,7 @@ const navbar = () => {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <i>nav start</i>
+      {/* <i>nav start</i> */}
     </div>
   );
 };
