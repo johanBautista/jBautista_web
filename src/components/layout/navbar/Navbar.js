@@ -16,9 +16,8 @@ const navbar = () => {
           <FontAwesomeIcon
             icon={faUserAstronaut}
             size="2x"
-            style={{ color:'#f7882f'}}
+            style={{ color: '#f7882f' }}
           />
-          
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -28,17 +27,19 @@ const navbar = () => {
             <Nav.Link href="/cv">Curriculum</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/johan-bautista-parra/" target='_blank'>
+            <Nav.Link
+              href="https://www.linkedin.com/in/johan-bautista-parra/"
+              target="_blank"
+            >
               <img src={linkedin} alt="logo" className="style-icon" />
             </Nav.Link>
-            <Nav.Link href="https://github.com/johanBautista" target='_blank'>
+            <Nav.Link href="https://github.com/johanBautista" target="_blank">
               <img src={github} alt="logo" className="style-icon" />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <h2>aqui el nav</h2>
-
+      <i>nav start</i>
     </div>
   );
 };
