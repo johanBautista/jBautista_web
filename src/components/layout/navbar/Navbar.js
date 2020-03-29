@@ -16,7 +16,7 @@ const navbar = () => {
           <FontAwesomeIcon
             icon={faUserAstronaut}
             size="2x"
-            style={{ color: 'teal' }}
+            style={{ color:'#f7882f'}}
           />
           
         </Navbar.Brand>
@@ -28,10 +28,10 @@ const navbar = () => {
             <Nav.Link href="/cv">Curriculum</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/johan-bautista-parra/">
+            <Nav.Link href="https://www.linkedin.com/in/johan-bautista-parra/" target='_blank'>
               <img src={linkedin} alt="logo" className="style-icon" />
             </Nav.Link>
-            <Nav.Link href="https://github.com/johanBautista">
+            <Nav.Link href="https://github.com/johanBautista" target='_blank'>
               <img src={github} alt="logo" className="style-icon" />
             </Nav.Link>
           </Nav>
