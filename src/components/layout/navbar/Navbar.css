@@ -3,12 +3,11 @@ apricot   #f7882f
 citrus    #f7c331
 applecore #dcc7aa */
 
-
 img.style-icon {
   width: 30px;
 }
 .navbar {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   font-weight: 300;
 }
 .fixed-top {
@@ -17,4 +16,18 @@ img.style-icon {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+.navbar-collapse {
+  margin-right: 200px;
+  /* margin-left: 200px; */
+}
+
+.fa-2x {
+  margin-left: 200px;
+}
+
+@media only screen and (max-width: 990px) {
+  .fa-2x {
+    margin-left: 20px;
+  }
 }

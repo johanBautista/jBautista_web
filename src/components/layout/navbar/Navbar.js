@@ -11,12 +11,12 @@ import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 const navbar = () => {
   return (
     <div className="container-fluid">
-      <Navbar collapseOnSelect expand="lg" variant="light" className="fixed-top">
-        <Navbar.Brand href="/" className="style-logo style-title">
+      <Navbar className="fixed-top" collapseOnSelect expand="lg">
+        <Navbar.Brand href="/">
           <FontAwesomeIcon
             icon={faUserAstronaut}
             size="2x"
-            style={{ color: '#f7882f' }}
+            style={{ color: 'teal' }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

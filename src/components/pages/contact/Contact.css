@@ -36,7 +36,17 @@ textarea.form-control {
   border: transparent !important;
   border-bottom: tomato solid;
 }
-
+@media only screen and (max-width: 990px) {
+  .container-contact {
+    display: block;
+  }
+  .contact-info {
+    margin: 50px 0;
+  }
+  .contact-form {
+    margin-left: 0;
+  }
+}
 /* blueberry #6b7a8f
 apricot   #f7882f
 citrus    #f7c331
