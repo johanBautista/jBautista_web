@@ -1,3 +1,16 @@
-.container{
+.img-home {
+  background: url('../../img/home.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+.container {
   padding-top: 20%;
+}
+
+.line-style {
+  width: 100%;
+  border-bottom: rgba(204, 204, 204, 0.705) 2px solid;
+}
+.text-center {
+  color: rgb(255, 255, 255);
 }
