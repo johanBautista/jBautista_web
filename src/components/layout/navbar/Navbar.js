@@ -11,7 +11,7 @@ import { faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 const navbar = () => {
   return (
     <div className="container-fluid">
-      <Navbar collapseOnSelect expand="lg" variant="light">
+      <Navbar collapseOnSelect expand="lg" variant="light" className="fixed-top">
         <Navbar.Brand href="/" className="style-logo style-title">
           <FontAwesomeIcon
             icon={faUserAstronaut}

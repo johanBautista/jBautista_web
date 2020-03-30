@@ -1,0 +1,43 @@
+body,
+html {
+  height: 100%;
+}
+.img-back {
+  background-image: url('../../img/wolfgang-hasselmann-WrLY3abIUyU-unsplash.jpg');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-title {
+}
+.container-contact {
+  display: flex;
+  padding-top: 20%;
+}
+.contact-form {
+  width: inherit;
+  margin-left: 60px;
+}
+.contact-info {
+  width: inherit;
+}
+.card {
+  background-color: transparent !important;
+  box-shadow: 0px 2px 12px #aaaaaa;
+  padding: 10px;
+}
+input.form-control,
+textarea.form-control {
+  background-color: transparent;
+}
+
+.form-control {
+  border: transparent !important;
+  border-bottom: tomato solid;
+}
+
+/* blueberry #6b7a8f
+apricot   #f7882f
+citrus    #f7c331
+applecore #dcc7aa */
