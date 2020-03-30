@@ -1,16 +1,17 @@
 import React from 'react';
 import './Curriculum.css';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, ProgressBar } from 'react-bootstrap';
 import foto1 from '../../img/b-cv3.jpg';
 import foto2 from '../../img/home.jpg';
 import foto3 from '../../img/wolfgang-hasselmann-WrLY3abIUyU-unsplash.jpg';
+// import { Link } from 'react-router-dom';
 
 const Curriculum = () => {
   return (
     <section>
       <section className="image-about">
         <div className="container">
-          <div className="">
+          <div className="quote-curriculum">
             <h4>About me</h4>
             <i>
               Soy soñador, soy guerrero, soy amigo y padre. Hace 1 año conoci el
@@ -153,21 +154,35 @@ const Curriculum = () => {
         </section>
         <section className="containero">
           <h3>Hard Skills</h3>
-
-          <ul>
-            <li>Javascript</li>
-            <li>HTML & CSS</li>
-            <li>MongoDB</li>
-            <li>Express.js</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Typescript</li>
-            <li>SASS</li>
-            <li>Handlebars</li>
-            <li>ES6</li>
-            <li>JQuery</li>
-            <li>Git</li>
-          </ul>
+          <div className="card-skill">
+            {/* <Link> </Link> */}
+            <ul>
+              <li>Javascript</li>
+              <ProgressBar animated now={5} variant="success" />
+              <li>HTML & CSS</li>
+              <ProgressBar animated now={1} variant="info" />
+              <li>MongoDB</li>
+              <ProgressBar animated now={25} />
+              <li>Express.js</li>
+              <ProgressBar animated now={35} variant="success" />
+              <li>React.js</li>
+              <ProgressBar animated now={45} variant="info" />
+              <li>Node.js</li>
+              <ProgressBar animated now={55} />
+              <li>Typescript</li>
+              <ProgressBar animated now={65} />
+              <li>SASS</li>
+              <ProgressBar animated now={75} variant="success" />
+              <li>Handlebars</li>
+              <ProgressBar animated now={85} variant="info" />
+              <li>ES6</li>
+              <ProgressBar animated now={5} />
+              <li>JQuery</li>
+              <ProgressBar animated now={85} />
+              <li>Git</li>
+              <ProgressBar animated now={85} />
+            </ul>
+          </div>
         </section>
         <section className="containero">
           <h3>Education</h3>

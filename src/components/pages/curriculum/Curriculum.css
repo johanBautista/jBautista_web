@@ -1,8 +1,11 @@
 .image-about {
   background: url('../../img/b-cv3.jpg') no-repeat center;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 150vh; /* pendiente de hacer fondo fijo y div q este por encima */
   background-position: center;
+}
+.quote-curriculum {
+  color: floralwhite;
 }
 .carrusel {
   width: 25%;
@@ -18,12 +21,30 @@
   display: flex;
   justify-content: space-around;
 }
-.carrusel-title{
+.carrusel-title {
   padding-top: 20px;
 }
-.carrusel-description{
+.carrusel-description {
   margin-top: 10px;
   text-align: justify;
+}
+.card-skill {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* min-width: 0; */
+  /* word-wrap: break-word; */
+  /* background-color: #fff; */
+  /* background-clip: border-box; */
+  /* border: 1px solid rgba(0,0,0,.125); */
+  /* border-radius: .25rem; */
+  /* background-color: transparent !important; */
+  /* box-shadow: 0px 1px 5px #aaaaaa; */
+}
+.card-skill li {
+  /* text-decoration: none; */
+  list-style: none;
 }
 
 @media only screen and (max-width: 990px) {
@@ -37,3 +58,7 @@
     display: block;
   }
 }
+/* las barras de progreso podrian ser lineas en llugar de circulos como si fuesen ramas de git
+  tambien molaria hacer otra vista en donde se muestre mi trayectoria como las ramas de git esto 
+  entreo en una vista y ya pa flipar q en cada punto explique lo q he aprendido como si fuesen commits
+  */
