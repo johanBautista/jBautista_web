@@ -1,11 +1,55 @@
 import React from 'react';
 import './Curriculum.css';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, ProgressBar } from 'react-bootstrap';
 import foto1 from '../../img/b-cv3.jpg';
 import foto2 from '../../img/home.jpg';
 import foto3 from '../../img/wolfgang-hasselmann-WrLY3abIUyU-unsplash.jpg';
 // import LearningBar from './progressbar/ProgressBar';
 // import { Link } from 'react-router-dom';
+
+const Progress = ({ done }) => {
+  const [style, setStyle] = React.useState({});
+
+  setTimeout(() => {
+    const newStyle = {
+      opacity: 1,
+      width: `${done}%`,
+    };
+
+    setStyle(newStyle);
+  }, 200);
+
+  return (
+    <div className="progress">
+      <div className="progress-done" style={style}>
+        {done}%
+      </div>
+    </div>
+  );
+};
+
+const App = () => {
+  return (
+    <>
+      <h1>React Progress Bar</h1>
+      <Progress done="70" />
+      <h2>css Progress Bar</h2>
+      <Progress done="30" />
+      <h2>ingles Progress r</h2>
+      <Progress done="90" />
+      <h2>java Progress Bar</h2>
+      <Progress done="20" />
+      <h2>css Progress Bar</h2>
+      <Progress done="30" />
+      <h2>ingles Progress Bar</h2>
+      <Progress done="90" />
+      <h2>java Progress Bar</h2>
+      <Progress done="20" />
+    </>
+  );
+};
+
+// ReactDOM.render(<App />, document.getElementById('app'));
 
 const Curriculum = () => {
   return (
@@ -155,9 +199,12 @@ const Curriculum = () => {
         </section>
         <section className="containero">
           <h3>Hard Skills</h3>
+          <ProgressBar animated now={50} variant="warning" />
+
           <div className="card-skill">
             <>
               <h2>Lista</h2>
+              <App />
             </>
             {/* <Link> </Link> */}
             <ul>

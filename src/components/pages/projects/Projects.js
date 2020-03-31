@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
       <i>projects start</i>
       <h3>perro</h3>
-      <ProgressBar porcent='50'/>
+      <ProgressBar animated now={50} variant="warning"  />
     </div>
   );
 };
