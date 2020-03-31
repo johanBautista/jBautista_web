@@ -4,6 +4,8 @@ import { Carousel, ProgressBar } from 'react-bootstrap';
 import foto1 from '../../img/b-cv3.jpg';
 import foto2 from '../../img/home.jpg';
 import foto3 from '../../img/wolfgang-hasselmann-WrLY3abIUyU-unsplash.jpg';
+import HardSkills from './hardSkills/HardSkills';
+import Padre from './compo/Padre';
 // import LearningBar from './progressbar/ProgressBar';
 // import { Link } from 'react-router-dom';
 
@@ -31,7 +33,7 @@ const Progress = ({ done }) => {
 const App = () => {
   return (
     <>
-      <h1>React Progress Bar</h1>
+      <h2>React Progress Bar</h2>
       <Progress done="70" />
       <h2>css Progress Bar</h2>
       <Progress done="30" />
@@ -203,8 +205,16 @@ const Curriculum = () => {
 
           <div className="card-skill">
             <>
-              <h2>Lista</h2>
+              <h2>Lista desde CV</h2>
               <App />
+            </>
+            <>
+              <h2>Lista desde </h2>
+              <HardSkills />
+            </>
+            <>
+              <h2>Lista desde composicion</h2>
+              <Padre/>
             </>
             {/* <Link> </Link> */}
             <ul>
