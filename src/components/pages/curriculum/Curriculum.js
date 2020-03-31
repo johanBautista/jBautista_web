@@ -1,9 +1,10 @@
 import React from 'react';
 import './Curriculum.css';
-import { Carousel, ProgressBar } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import foto1 from '../../img/b-cv3.jpg';
 import foto2 from '../../img/home.jpg';
 import foto3 from '../../img/wolfgang-hasselmann-WrLY3abIUyU-unsplash.jpg';
+// import LearningBar from './progressbar/ProgressBar';
 // import { Link } from 'react-router-dom';
 
 const Curriculum = () => {
@@ -156,21 +157,7 @@ const Curriculum = () => {
           <h3>Hard Skills</h3>
           <div className="card-skill">
             <>
-              <h2>React Progress Bar</h2>
-              <ProgressBar done="70" />
-              <h2>css Progress Bar</h2>
-              <ProgressBar done="30" />
-              <h2>ingles Progress Bar</h2>
-              <ProgressBar done="90" />
-              <h2>java Progress Bar</h2>
-              <ProgressBar done="20" />
-               <h2>css Progress Bar</h2>
-               <ProgressBar done="30" />
-               <h2>ingles Progress Bar</h2>
-               <ProgressBar done="90" />
-               <h2>java Progress Bar</h2>
-               <ProgressBar done="20" />
-              {' '}
+              <h2>Lista</h2>
             </>
             {/* <Link> </Link> */}
             <ul>
