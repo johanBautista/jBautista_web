@@ -155,9 +155,26 @@ const Curriculum = () => {
         <section className="containero">
           <h3>Hard Skills</h3>
           <div className="card-skill">
+            <>
+              <h2>React Progress Bar</h2>
+              <ProgressBar done="70" />
+              <h2>css Progress Bar</h2>
+              <ProgressBar done="30" />
+              <h2>ingles Progress Bar</h2>
+              <ProgressBar done="90" />
+              <h2>java Progress Bar</h2>
+              <ProgressBar done="20" />
+               <h2>css Progress Bar</h2>
+               <ProgressBar done="30" />
+               <h2>ingles Progress Bar</h2>
+               <ProgressBar done="90" />
+               <h2>java Progress Bar</h2>
+               <ProgressBar done="20" />
+              {' '}
+            </>
             {/* <Link> </Link> */}
             <ul>
-              <li>Javascript</li>
+              {/* <li>Javascript</li>
               <ProgressBar animated now={5} variant="success" />
               <li>HTML & CSS</li>
               <ProgressBar animated now={1} variant="info" />
@@ -180,7 +197,7 @@ const Curriculum = () => {
               <li>JQuery</li>
               <ProgressBar animated now={85} />
               <li>Git</li>
-              <ProgressBar animated now={85} />
+              <ProgressBar animated now={85} /> */}
             </ul>
           </div>
         </section>
