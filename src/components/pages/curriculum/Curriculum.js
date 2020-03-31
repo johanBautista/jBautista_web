@@ -1,57 +1,11 @@
 import React from 'react';
 import './Curriculum.css';
-import { Carousel, ProgressBar } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import foto1 from '../../img/b-cv3.jpg';
 import foto2 from '../../img/home.jpg';
 import foto3 from '../../img/wolfgang-hasselmann-WrLY3abIUyU-unsplash.jpg';
-import HardSkills from './hardSkills/HardSkills';
-import Padre from './compo/Padre';
-// import LearningBar from './progressbar/ProgressBar';
+import Languages from './languages/Languages';
 // import { Link } from 'react-router-dom';
-
-const Progress = ({ done }) => {
-  const [style, setStyle] = React.useState({});
-
-  setTimeout(() => {
-    const newStyle = {
-      opacity: 1,
-      width: `${done}%`,
-    };
-
-    setStyle(newStyle);
-  }, 200);
-
-  return (
-    <div className="progress">
-      <div className="progress-done" style={style}>
-        {done}%
-      </div>
-    </div>
-  );
-};
-
-const App = () => {
-  return (
-    <>
-      <h2>React Progress Bar</h2>
-      <Progress done="70" />
-      <h2>css Progress Bar</h2>
-      <Progress done="30" />
-      <h2>ingles Progress r</h2>
-      <Progress done="90" />
-      <h2>java Progress Bar</h2>
-      <Progress done="20" />
-      <h2>css Progress Bar</h2>
-      <Progress done="30" />
-      <h2>ingles Progress Bar</h2>
-      <Progress done="90" />
-      <h2>java Progress Bar</h2>
-      <Progress done="20" />
-    </>
-  );
-};
-
-// ReactDOM.render(<App />, document.getElementById('app'));
 
 const Curriculum = () => {
   return (
@@ -200,50 +154,7 @@ const Curriculum = () => {
           </div>
         </section>
         <section className="containero">
-          <h3>Hard Skills</h3>
-          <ProgressBar animated now={50} variant="warning" />
-
-          <div className="card-skill">
-            <>
-              <h2>Lista desde CV</h2>
-              <App />
-            </>
-            <>
-              <h2>Lista desde </h2>
-              <HardSkills />
-            </>
-            <>
-              <h2>Lista desde composicion</h2>
-              <Padre/>
-            </>
-            {/* <Link> </Link> */}
-            <ul>
-              {/* <li>Javascript</li>
-              <ProgressBar animated now={5} variant="success" />
-              <li>HTML & CSS</li>
-              <ProgressBar animated now={1} variant="info" />
-              <li>MongoDB</li>
-              <ProgressBar animated now={25} />
-              <li>Express.js</li>
-              <ProgressBar animated now={35} variant="success" />
-              <li>React.js</li>
-              <ProgressBar animated now={45} variant="info" />
-              <li>Node.js</li>
-              <ProgressBar animated now={55} />
-              <li>Typescript</li>
-              <ProgressBar animated now={65} />
-              <li>SASS</li>
-              <ProgressBar animated now={75} variant="success" />
-              <li>Handlebars</li>
-              <ProgressBar animated now={85} variant="info" />
-              <li>ES6</li>
-              <ProgressBar animated now={5} />
-              <li>JQuery</li>
-              <ProgressBar animated now={85} />
-              <li>Git</li>
-              <ProgressBar animated now={85} /> */}
-            </ul>
-          </div>
+          <h3>Technologies</h3>
         </section>
         <section className="containero">
           <h3>Education</h3>
@@ -261,6 +172,7 @@ const Curriculum = () => {
         </section>
         <section className="containero">
           <h3>languages</h3>
+          <Languages />
         </section>
       </section>
     </section>
