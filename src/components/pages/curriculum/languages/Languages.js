@@ -33,7 +33,6 @@ const App = () => {
       <Progress porcent="40" />
       <h4>English </h4>
       <Progress porcent="20" />
-     
     </>
   );
 };

@@ -6,9 +6,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-      {/* <i>footer start</i> */}
-
+    <div className="footer">
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom text-white">
         <span className="mx-auto d-block ">&copy; Johan Bautista</span>
         <Link

@@ -16,7 +16,7 @@ const navbar = () => {
           <FontAwesomeIcon
             icon={faUserAstronaut}
             size="2x"
-            style={{ color: 'teal' }}
+            style={{ color: '#3398DB' }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

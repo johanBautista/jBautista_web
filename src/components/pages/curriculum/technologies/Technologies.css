@@ -1,0 +1,34 @@
+.technologies-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.technologies-icon li {
+  list-style: none;
+}
+.technologies-icon img {
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+.title-tech{
+  text-align: center;
+  color: rgb(107, 122, 143);
+  padding-top: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 667px) {
+  h3 {
+    color: brown;
+  }
+  .technologies-icon {
+    display: block;
+  }
+}
+/* blueberry #6b7a8f
+apricot   #f7882f
+citrus    #f7c331
+applecore #dcc7aa
+text body   color: rgb(76, 88, 104);
+ */
