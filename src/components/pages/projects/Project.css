@@ -1,0 +1,50 @@
+.text-card {
+  text-align: center;
+}
+.perreo {
+  margin-bottom: 450px;
+}
+
+.img__wrap {
+  position: relative;
+}
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: radial-gradient(
+    circle,
+    #0b3c5dc2,
+    #0a446bc9,
+    #032033be,
+    #000000
+  );
+  color: rgba(255, 255, 255, 0.829);
+  visibility: hidden;
+  opacity: 0;
+  justify-content: center;
+}
+.img__wrap:hover .img__description_layer {
+  padding-top: 20px;
+  visibility: visible;
+  opacity: 1;
+}
+.img__description h2 {
+  font-size: 2em;
+}
+
+.img__description {
+  font-weight: bolder;
+  transition: 0.2s;
+  transform: translateY(1em);
+}
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+/* blueberry #6b7a8f
+apricot   #f7882f
+citrus    #f7c331
+applecore #dcc7aa */
