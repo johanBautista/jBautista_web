@@ -7,6 +7,7 @@ import cita from '../../img/vt-1.png';
 import etiqueta from '../../img/et-1.png';
 import cafe from '../../img/cc-1.png';
 import okey from '../../img/okey.png';
+import pt2 from '../../img/pt2.png';
 
 const Projects = () => {
   return (
@@ -67,7 +68,7 @@ const Projects = () => {
 
         <a href="https://www.youtube.com/watch?v=EsLn2nKQduc">
           <Card bg="dark" text="white" className="text-center p-3 img__wrap">
-            <Card.Title > Work hard, dream big</Card.Title>
+            <Card.Title> Work hard, dream big</Card.Title>
             <div className="img__description_layer">
               <div className="img__description">
                 <h3>Boletaire!</h3>
@@ -106,15 +107,32 @@ const Projects = () => {
           </Card>
         </a>
 
-        <Card className="text-card">
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Title>8</Card.Title>
-        </Card>
+        <a
+          href="https://www.behance.net/gallery/94458879/Responsive-Web-freeCodeCamp"
+          className="img__wrap"
+        >
+          <Card className="text-card">
+            <Card.Img variant="top" src={pt2} />
+            <div className="img__description_layer">
+              <div className="img__description">
+                <h2>Web Responsive</h2>
+                <p>Certicated freeCodeCamp</p>
+              </div>
+            </div>
+          </Card>
+        </a>
 
-        <Card className="text-card">
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Title>9</Card.Title>
-        </Card>
+        <a href="#" className="img__wrap">
+          <Card className="text-card">
+            <Card.Img variant="top" src="holder.js/100px160" />
+            <div className="img__description_layer">
+              <div className="img__description">
+                <h2>Cafe Central</h2>
+                <p>Video Marketing</p>
+              </div>
+            </div>
+          </Card>
+        </a>
 
         <Card className="p-3 text-card">
           <Card.Img variant="top" src="holder.js/100px160" />

@@ -13,7 +13,7 @@ const Home = () => {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
           quia, cupiditate ullam asperiores officia
         </p>
-        <Button variant="dark">Wellcome</Button>
+        <Button variant="dark">My Experience</Button>
       </div>
     </div>
   );
