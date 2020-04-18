@@ -4,13 +4,42 @@
   min-height: 100vh;
 }
 .container {
-  padding-top: 20%;
+  top: 40rem;
 }
-
 .line-style {
   width: 100%;
   border-bottom: rgba(204, 204, 204, 0.705) 2px solid;
 }
 .text-center {
   color: rgb(255, 255, 255);
+  position: relative;
+}
+.about-section,
+.stack-section,
+.why-section,
+.project-section {
+  margin: 10% 0;
+}
+.display-content {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.display-home {
+  display: flex;
+}
+.foto {
+  display: block;
+}
+.foto-cambio {
+  width: 90%;
+}
+.foto-block {
+  height: 500px;
+  width: 100%;
+}
+@media only screen and (min-width: 220px) and (max-width: 990px) {
+  .container {
+    top: 30rem;
+  }
 }

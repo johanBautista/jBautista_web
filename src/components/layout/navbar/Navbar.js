@@ -29,7 +29,7 @@ const navbar = () => {
               Home
             </Nav.Link>
             <Nav.Link className="item-bar" href="/projects">
-              Portf
+              Portfolio
             </Nav.Link>
             <Nav.Link className="item-bar" href="/cv">
               About
