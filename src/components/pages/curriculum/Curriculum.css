@@ -42,24 +42,6 @@
   justify-content: space-between;
 }
 
-.card-skill {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
-}
-.card-skill li {
-  text-decoration: none;
-  list-style: none;
-}
-
-.article-left {
-  padding-right: 25%;
-}
-
-/* .languages .education img {
-  width: 200px;
-} */
 /* ------------------------------------------------------------------------------- */
 @media only screen and (max-width: 990px) {
   .size-img {
@@ -71,8 +53,24 @@
   .justify-carrusel {
     display: block;
   }
-  .languages, .education{
+  .languages,
+  .education {
     display: block;
   }
 }
 
+/* las barras de progreso podrian ser lineas en llugar de circulos como si fuesen ramas de git
+  tambien molaria hacer otra vista en donde se muestre mi trayectoria como las ramas de git esto 
+  entreo en una vista y ya pa flipar q en cada punto explique lo q he aprendido como si fuesen commits
+  */
+/* <h4>Ironhack</h4>
+              <p>Stack Developer Part time Bootcamp graduation2019 – 2019</p>
+              <h4>Universitat Oberta de Catalunya</h4>
+              <p> Grado en Multimedia graduation 2016 – 2018</p>
+              <h4>IES Mare de Déu La Merce </h4>
+              <p>Grade CFGS Sonido graduation 2011 – 2013</p>
+              <h4>IES Sta. Eulalia</h4>
+              <p>
+                Grade CFGS Realizador Audiovisual y Espectáculos graduation2008
+                – 2010
+              </p> */

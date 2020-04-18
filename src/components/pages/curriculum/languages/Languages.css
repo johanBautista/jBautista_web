@@ -3,15 +3,20 @@
   border-radius: 20px;
   position: relative;
   margin: 15px 0;
-  height: 20px;
-  width: 300px;
+  height: 0.3rem !important;
+  width: 50em;
 }
 
 .progress-porcent {
-  background: linear-gradient(to left, rgba(0, 128, 128, 0.815), rgba(0, 77, 128, 0.815));
-  box-shadow: 0 3px 3px -5px rgba(0, 128, 128, 0.815), 0 2px 5px rgba(0, 128, 128, 0.815);
+  background: linear-gradient(
+    to left,
+    rgba(0, 128, 128, 0.815),
+    rgba(0, 77, 128, 0.815)
+  );
+  box-shadow: 0 3px 3px -5px rgba(0, 128, 128, 0.815),
+    0 2px 5px rgba(0, 128, 128, 0.815);
   border-radius: 20px;
-  color: #fff;
+  /* color: rgba(0, 0, 0, 0.699); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,4 +24,9 @@
   width: 0;
   opacity: 0;
   transition: 1s ease 0.3s;
+}
+@media only screen and (max-width: 667px) {
+  .languages-set, .progress {
+    width: 90%;
+  }
 }

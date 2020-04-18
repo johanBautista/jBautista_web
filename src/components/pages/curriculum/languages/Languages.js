@@ -14,9 +14,11 @@ const Progress = ({ porcent }) => {
   }, 200);
 
   return (
-    <div className="progress">
-      <div className="progress-porcent" style={style}>
-        {porcent}%
+    <div className="languages-set">
+      <div className="progress">
+        <div className="progress-porcent" style={style}>
+          {porcent}%
+        </div>
       </div>
     </div>
   );

@@ -23,6 +23,8 @@
 .display-content {
   display: flex;
   justify-content: space-evenly;
+  /* text-align: justify; */
+
 }
 .display-home {
   display: flex;
@@ -77,5 +79,8 @@
 @media only screen and (min-width: 220px) and (max-width: 990px) {
   .container {
     top: 30rem;
+  }
+  .display-home {
+    display: block;
   }
 }

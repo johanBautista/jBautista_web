@@ -12,7 +12,7 @@ import pt2 from '../../img/pt2.png';
 
 const Projects = () => {
   return (
-    <div className="container perreo">
+    <div className="container projects">
       <h3>Projects start</h3>
 
       <CardColumns>
