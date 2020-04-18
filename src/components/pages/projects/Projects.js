@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Card, CardColumns } from 'react-bootstrap';
 import './Project.css';
@@ -122,7 +123,7 @@ const Projects = () => {
           </Card>
         </a>
 
-        <a href="#" className="img__wrap">
+        <a className="img__wrap">
           <Card className="text-card">
             <Card.Img variant="top" src="holder.js/100px160" />
             <div className="img__description_layer">

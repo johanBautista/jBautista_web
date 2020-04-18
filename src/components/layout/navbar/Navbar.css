@@ -7,8 +7,7 @@ img.style-icon {
   width: 20px;
 }
 .navbar {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  font-weight: 300;
+  background-color: rgb(255, 255, 255);
 }
 .fixed-top {
   position: fixed;
@@ -17,9 +16,38 @@ img.style-icon {
   left: 0;
   z-index: 1030;
 }
+.navigation-bar {
+  padding: 3% 0;
+}
+.icon-logo {
+  padding-top: 20px;
+}
+.nombreLogo {
+  margin-left: 20%;
+  color: rgb(58, 58, 58);
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.sup {
+  display: flex;
+  top: -2.5em;
+  left: 119%;
+  color: rgb(79, 79, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(14, 14, 14, 0.741) !important;
+  font-weight: 600;
+  font-size: large;
+  margin-right: 6rem;
+}
 .navbar-collapse {
-  margin-right: 200px;
-  /* margin-left: 200px; */
+  margin-right: 10%;
 }
 
 .fa-2x {
@@ -30,4 +58,18 @@ img.style-icon {
   .fa-2x {
     margin-left: 20px;
   }
+}
+
+@media only screen and (max-width: 770px) {
+  .nombreLogo {
+    margin-left: 2%;
+  }
+  .sup {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 1290px) {
+  .navbar-light .navbar-nav .nav-link {
+  margin-right: 3rem;
+}
 }

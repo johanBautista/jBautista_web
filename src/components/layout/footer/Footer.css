@@ -1,6 +1,51 @@
-.footer{
-  margin-top: 20%;
+.footer {
+  margin: 10% 5% 3% 5%;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-left {
+  display: flex;
+}
+.nav-link {
+  color: black;
+  font-weight: 600;
+}
+.copy {
+  padding-left: 15px;
 }
 .style-icon {
   margin-right: 15px;
+}
+
+.fixed-bottom {
+  position: inherit !important;
+}
+.email {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.team {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 770px) {
+  .footer {
+    text-align: center;
+  }
+  .navigation-left {
+    justify-content: center;
+  }
+  .footer-top {
+    display: block;
+  }
+  .footer-bottom {
+    display: block;
+  }
 }
