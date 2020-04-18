@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 import imgHome from '../../img/home.jpg';
 import './Home.css';
 
@@ -100,6 +100,43 @@ const Home = () => {
           <div className="foto">
             <img src={imgHome} alt="cambio" className="foto-block" />
           </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <h2 className="">Why me?</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
+          quia, cupiditate ullam asperiores officia, Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Nesciunt quia, cupiditate ullam
+          asperiores officia.abs
+        </p>
+      </div>
+
+      <div className="form img-contact">
+        <div className="formo">
+          <Form className="contact-form card">
+            <Form.Group>
+              <Form.Control
+                type="name"
+                placeholder="Your name"
+                // style={{ borderBottom: '1px solid #2966a3' }}
+              />
+            </Form.Group>
+            <Form.Group controlId="exampleForm.ControlInput1">
+              <Form.Control type="email" placeholder="Your email" />
+            </Form.Group>
+            <Form.Group controlId="exampleForm.ControlTextarea1">
+              <Form.Control
+                as="textarea"
+                rows="3"
+                placeholder="Your text here"
+              />
+            </Form.Group>
+            <Button variant="dark" type="submit">
+              Submit
+            </Button>
+          </Form>
         </div>
       </div>
     </div>

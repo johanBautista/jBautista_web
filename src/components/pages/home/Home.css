@@ -23,7 +23,6 @@
 .display-content {
   display: flex;
   justify-content: space-evenly;
-  
 }
 .display-home {
   display: flex;
@@ -38,6 +37,43 @@
   height: 500px;
   width: 100%;
 }
+.form {
+  /* background-color: blue; */
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formo {
+  width: 30rem;
+}
+.contact-form {
+  /* width: 50%; */
+  margin-left: 0px !important;
+}
+.contact-info {
+  width: inherit;
+}
+.card {
+  background-color: transparent !important;
+  box-shadow: 0px 2px 12px #aaaaaa;
+  padding: 10px;
+}
+
+.img-contact {
+  background: url('../../img/home.jpg') no-repeat center;
+  /* background-size: contain; */
+  background-size: cover;
+  min-height: 60vh;
+}
+
+@media only screen and (max-width: 570px) {
+  .formo {
+    /* background-color: blue; */
+    width: 15rem;
+  }
+}
+
 @media only screen and (min-width: 220px) and (max-width: 990px) {
   .container {
     top: 30rem;

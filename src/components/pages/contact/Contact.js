@@ -4,10 +4,10 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="img-back">
-      <div className="container container-contact">
+    <div className="img-formi">
+      <div className="container container-contact img-formi">
         <div className="contact-info">
-          <h2 className="info-title">Contact me right now!</h2>
+          <h2 className="info-title img-form"></h2>
           <hr/>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
@@ -15,8 +15,14 @@ const Contact = () => {
             excepturi odio quod, ipsa alias ratione nam perspiciatis adipisci
             omnis laudantium porro dolorem? Consequuntur!
           </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            doloremque voluptas dignissimos maxime suscipit, possimus eum
+            excepturi odio quod, ipsa alias ratione nam perspiciatis adipisci
+            omnis laudantium porro dolorem? Consequuntur!
+          </p>
         </div>
-        <div className="contact-form card">
+        <div className="contact-form card img-forme">
           <h2 className="contact-title">Contact me</h2>
           <Form>
             <Form.Group>
