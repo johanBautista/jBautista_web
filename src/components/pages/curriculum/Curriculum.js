@@ -8,19 +8,16 @@ import Languages from './languages/Languages';
 import Technologies from './technologies/Technologies';
 import { Link } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
-import bbdd from '../../img/bbdd.png';
+// import bbdd from '../../img/bbdd.png';
+import imgHome from '../../img/home.jpg';
 
 const Curriculum = () => {
   return (
     <section>
-      <section className="image-about">
-        <div className="container">
+      <section className=" container ">
+        <div className="image-about">
           <div className="quote-curriculum">
-            <h4>About me</h4>
-            <i>
-              Soy soñador, soy guerrero, soy amigo y padre. Hace 1 año conoci el
-              desarrollo y ahora se a qué me quiero dedicar.
-            </i>
+            <h2>Soy soñador un guerrero, ahora sé a que me quiero dedicar.</h2>
             {/* <i>
               I am a decisive person who likes to share and learn from other
               professionals dedicated to digital projects, I like agile
@@ -29,8 +26,9 @@ const Curriculum = () => {
           </div>
         </div>
       </section>
+
       <section className="container-lg">
-        <section className="containero">
+        <div className="sect-experience">
           <h3>Experience</h3>
           <div className="justify-carrusel">
             <section className="carrusel">
@@ -155,41 +153,48 @@ const Curriculum = () => {
               <small>Javascript, Canvas, HTML, CSS</small>
             </section>
           </div>
-        </section>
-        <section className="containero">
+        </div>
+
+        <div className="sect-education">
+          <h2 className="">Education</h2>
+          <div className="education">
+            <div className="education-info">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nesciunt quia, cupiditate ullam asperiores officia, Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Nesciunt quia,
+                cupiditate ullam asperiores officia.abs
+              </p>
+
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nesciunt quia, cupiditate ullam asperiores officia
+              </p>
+            </div>
+            <div className="foto-section">
+              <img src={imgHome} alt="cambio" className="foto-cambio" />
+            </div>
+          </div>
+        </div>
+
+        <div className="sect-techn">
           <h3>Technologies</h3>
           <Link>
             <Technologies className="card-skill" />
           </Link>
-        </section>
-        <section className="education">
-          <h3>Education</h3>
-          <div className="section-education">
-            <article>
-              <h4>Ironhack</h4>
-              <p>Stack Developer Part time Bootcamp graduation2019 – 2019</p>
-              <h4>Universitat Oberta de Catalunya</h4>
-              <p> Grado en Multimedia graduation 2016 – 2018</p>
-              <h4>IES Mare de Déu La Merce </h4>
-              <p>Grade CFGS Sonido graduation 2011 – 2013</p>
-              <h4>IES Sta. Eulalia</h4>
-              <p>
-                Grade CFGS Realizador Audiovisual y Espectáculos graduation2008
-                – 2010
-              </p>
-            </article>
-            <article>
-              <img src={bbdd} alt="bbdd" className="borrador" />
-            </article>
+        </div>
+
+        <div className="sect-languages">
+          <h2 className="">Languages</h2>
+          <div className="languages">
+            <div className="foto-section">
+              <img src={imgHome} alt="cambio" className="foto-cambio" />
+            </div>
+            <div className="education-info">
+              <Languages />
+            </div>
           </div>
-        </section>
-        <section className="languages">
-          <h3>languages</h3>
-          <article className="section-languages">
-            <img src={bbdd} alt="bbdd" className="borrador" />
-            <Languages />
-          </article>
-        </section>
+        </div>
       </section>
     </section>
   );
