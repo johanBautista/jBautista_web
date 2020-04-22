@@ -27,13 +27,13 @@ const Progress = ({ porcent }) => {
 const App = () => {
   return (
     <>
-      <h4>Spanish</h4>
+      <h5>Spanish</h5>
       <Progress porcent="100" />
-      <h4>Catalán </h4>
+      <h5>Catalán </h5>
       <Progress porcent="60" />
-      <h4>French </h4>
+      <h5>French </h5>
       <Progress porcent="40" />
-      <h4>English </h4>
+      <h5>English </h5>
       <Progress porcent="30" />
     </>
   );

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Technologies.css';
-import html from '../../../img/html.png';
-import css from '../../../img/css.png';
-import bbdd from '../../../img/bbdd.png';
-import git from '../../../img/git.png';
-import react from '../../../img/react.png';
+import css from '../../../img/1css.png';
+import html from '../../../img/2html.png';
+import bbdd from '../../../img/3bbdd.png';
+import git from '../../../img/4git.png';
+import react from '../../../img/5react.png';
 
 const Technologies = () => {
   return (

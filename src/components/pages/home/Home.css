@@ -14,34 +14,38 @@
   color: rgb(255, 255, 255);
   position: relative;
 }
+
+/* ----------------css sections  */
 .about-section,
 .stack-section,
 .why-section,
 .project-section {
   margin: 10% 0;
 }
-.display-content {
-  display: flex;
-  justify-content: space-evenly;
-  /* text-align: justify; */
-
-}
 .display-home {
   display: flex;
 }
-.foto {
-  display: block;
+
+.why-info,
+.about-info {
+  text-align: justify;
+  padding: 0 20px;
 }
-.foto-cambio {
-  width: 90%;
+
+.foto-about {
+  width: 40%;
 }
-.foto-block {
-  height: 500px;
-  width: 100%;
+.foto-why {
+  width: 60%;
+}
+
+/*---------------- css form  */
+.img-contact {
+  background: url('../../img/contact.jpg') no-repeat center;
+  background-size: cover;
+  min-height: 60vh;
 }
 .form {
-  /* background-color: blue; */
-  /* width: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +54,6 @@
   width: 30rem;
 }
 .contact-form {
-  /* width: 50%; */
   margin-left: 0px !important;
 }
 .contact-info {
@@ -62,16 +65,9 @@
   padding: 10px;
 }
 
-.img-contact {
-  background: url('../../img/home.jpg') no-repeat center;
-  /* background-size: contain; */
-  background-size: cover;
-  min-height: 60vh;
-}
-
+/* ------------ mediaqueries  */
 @media only screen and (max-width: 570px) {
   .formo {
-    /* background-color: blue; */
     width: 15rem;
   }
 }

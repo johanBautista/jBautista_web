@@ -4,10 +4,10 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="img-formi">
-      <div className="container container-contact img-formi">
+    <div className="img-form">
+      <div className="container container-contact img-forme">
         <div className="contact-info">
-          <h2 className="info-title img-form"></h2>
+          <h2 className="info-title img-forme">Right Now</h2>
           <hr/>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi

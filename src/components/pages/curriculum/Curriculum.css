@@ -1,14 +1,23 @@
 .image-about {
-  background: url('../../img/b-cv3.jpg');
+  background: url('../../img/about.jpg');
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   background-size: cover;
   min-height: 90vh;
-  color: floralwhite;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.uno {
+}
+.quote {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  padding: 17px 50px;
+  background-color: black;
+
+  letter-spacing: 10px;
 }
 .sect-experience,
 .sect-techn {
@@ -26,8 +35,7 @@
   height: 25vh;
 }
 .foto-block {
-  height: 300px;
-  width: 70%;
+  width: 50%;
 }
 .carrusel-title {
   padding-top: 20px;
@@ -40,6 +48,14 @@
 .education {
   display: flex;
   justify-content: space-between;
+}
+.titulo {
+  padding-bottom: 40px;
+}
+.education-info {
+  /* background-color: thistle; */
+  padding: 20px;
+  text-align: justify;
 }
 
 /* ------------------------------------------------------------------------------- */
