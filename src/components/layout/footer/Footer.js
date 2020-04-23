@@ -1,10 +1,12 @@
 import React from 'react';
-import linkedin from '../../img/linkedin.png';
+import github from '../../img/6github.png';
+import linkedin from '../../img/7linkedin.png';
+import behance from '../../img/8behance.png';
 import { Link } from 'react-router-dom';
 import { Nav } from 'react-bootstrap';
 
 import './Footer.css';
- 
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -21,34 +23,27 @@ const Footer = () => {
           </Nav.Link>
         </div>
         <div className="navigation-center">
-          <Link
-            to="https://www.linkedin.com/in/johan-bautista-parra/"
+          <a
+            href="https://github.com/johanBautista"
+            target="_blank"
+            className="style-icon"
+          >
+            <img src={github} alt="logo" className="style-icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/johan-bautista-parra/"
             target="_blank"
             className="style-icon"
           >
             <img src={linkedin} alt="logo" className="style-icon" />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/johan-bautista-parra/"
+          </a>
+          <a
+            href="https://www.behance.net/johansbautist"
             target="_blank"
             className="style-icon"
           >
-            <img src={linkedin} alt="logo" className="style-icon" />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/johan-bautista-parra/"
-            target="_blank"
-            className="style-icon"
-          >
-            <img src={linkedin} alt="logo" className="style-icon" />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/johan-bautista-parra/"
-            target="_blank"
-            className="style-icon"
-          >
-            <img src={linkedin} alt="logo" className="style-icon" />
-          </Link>
+            <img src={behance} alt="logo" className="style-icon" />
+          </a>
         </div>
         <div className="footer-top-right">
           <p>
