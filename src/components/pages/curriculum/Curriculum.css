@@ -2,15 +2,14 @@
   background: url('../../img/about.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
   background-size: cover;
+  width: 100%;
   min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.uno {
-}
+
 .quote {
   font-family: 'Rock Salt', cursive;
   color: white;
@@ -35,6 +34,12 @@
   height: 25vh;
 }
 .foto-block {
+  background: url('../../img/educa.png');
+  background-repeat: no-repeat;
+  min-height: 62vh;
+  width: 110%;
+}
+.foto-language {
   width: 50%;
 }
 .carrusel-title {
@@ -59,6 +64,14 @@
 }
 
 /* ------------------------------------------------------------------------------- */
+@media only screen and (max-width: 425px) {
+  .foto-block {
+    background: url('../../img/educa2.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-left: 10px;
+  }
+}
 @media only screen and (max-width: 990px) {
   .size-img {
     height: 60vh;
@@ -73,20 +86,13 @@
   .education {
     display: block;
   }
+  .foto-block {
+    width: 100%;
+  }
 }
 
 /* las barras de progreso podrian ser lineas en llugar de circulos como si fuesen ramas de git
   tambien molaria hacer otra vista en donde se muestre mi trayectoria como las ramas de git esto 
   entreo en una vista y ya pa flipar q en cada punto explique lo q he aprendido como si fuesen commits
   */
-/* <h4>Ironhack</h4>
-              <p>Stack Developer Part time Bootcamp graduation2019 – 2019</p>
-              <h4>Universitat Oberta de Catalunya</h4>
-              <p> Grado en Multimedia graduation 2016 – 2018</p>
-              <h4>IES Mare de Déu La Merce </h4>
-              <p>Grade CFGS Sonido graduation 2011 – 2013</p>
-              <h4>IES Sta. Eulalia</h4>
-              <p>
-                Grade CFGS Realizador Audiovisual y Espectáculos graduation2008
-                – 2010
-              </p> */
+

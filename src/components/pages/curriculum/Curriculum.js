@@ -4,7 +4,6 @@ import Languages from './languages/Languages';
 import Technologies from './technologies/Technologies';
 import { Link } from 'react-router-dom';
 
-import imgHome from '../../img/home.jpg';
 import imgLanguages from '../../img/languages.jpg';
 import Carrusel from './carrusel/Carrusel';
 
@@ -25,25 +24,7 @@ const Curriculum = () => {
 
         <div className="sect-education">
           <h2 className="">Education</h2>
-          <div className="education">
-            <div className="education-info">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia, Lorem ipsum
-                dolor, sit amet consectetur adipisicing elit. Nesciunt quia,
-                cupiditate ullam asperiores officia.abs
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-            </div>
-            <img src={imgHome} alt="cambio" className="foto-block" />
-          </div>
+          <div className="education foto-block"></div>
         </div>
 
         <div className="sect-techn">
@@ -55,7 +36,7 @@ const Curriculum = () => {
 
         <div className="sect-languages">
           <div className="languages">
-            <img src={imgLanguages} alt="cambio" className="foto-block" />
+            <img src={imgLanguages} alt="cambio" className="foto-language" />
             <div className="education-info">
               <h2 className="titulo">Languages</h2>
               <Languages />
