@@ -4,6 +4,7 @@ import { Card } from 'react-bootstrap';
 import './Project.css';
 
 import okey from '../../img/okey.png';
+import { Link } from 'react-router-dom';
 
 const info = [
   {
@@ -75,7 +76,7 @@ const Projects = () => {
             <div className="prueba">
               {/* <a href={info.url}>{info.titulo}</a>
               <p>{info.description}</p> */}
-                <a href={info.url} className="img__wrap">
+                <Link to={info.url} className="img__wrap">
                   <Card className="p-3 text-card">
                     <Card.Img variant="top" src={okey} className="figure" />
                     <div className="img__description_layer">
@@ -86,7 +87,7 @@ const Projects = () => {
                       </div>
                     </div>
                   </Card>
-                </a>
+                </Link>
             </div>
           </div>
         );
