@@ -1,28 +1,19 @@
 .projects {
   margin: 15% 0;
 }
-.prueba {
-  width: 50%;
-}
 .img {
-  height: 350px;
+  height: 300px;
   width: 100%;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #2196f3;
-  padding: 10px;
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 5px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
   height: 100%;
-  /* font-size: 30px; */
-  /* text-align: center; */
 }
 
 .img__wrap {
@@ -36,10 +27,10 @@
   right: 0;
   background-image: radial-gradient(
     circle,
-    #0b3c5dc2,
-    #0a446bc9,
-    #032033be,
-    #000000
+    #940303c2,
+    #880808c9,
+    #930303be,
+    #4400008a
   );
   color: rgba(255, 255, 255, 0.829);
   visibility: hidden;
@@ -56,6 +47,7 @@
 }
 
 .img__description {
+  text-align: center;
   font-weight: bolder;
   transition: 0.2s;
   transform: translateY(1em);
@@ -64,7 +56,3 @@
   transform: translateY(0);
 }
 
-/* blueberry #6b7a8f
-apricot   #f7882f
-citrus    #f7c331
-applecore #dcc7aa */
