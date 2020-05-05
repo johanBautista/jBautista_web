@@ -20,7 +20,6 @@ function App() {
         <Route exact path="/cv" component={Curriculum} />
       </Switch>
 
-      {/* <i>app start</i> */}
 
       <Footer />
     </div>

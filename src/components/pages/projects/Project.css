@@ -1,12 +1,32 @@
-.text-card {
-  text-align: center;
-}
 .projects {
-  margin-top: 15%;
+  margin: 15% 0;
+}
+.prueba {
+  width: 50%;
+}
+.img {
+  height: 350px;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  height: 100%;
+  /* font-size: 30px; */
+  /* text-align: center; */
 }
 
 .img__wrap {
-  /* position: relative; */
+  position: relative;
 }
 .img__description_layer {
   position: absolute;
@@ -48,7 +68,3 @@
 apricot   #f7882f
 citrus    #f7c331
 applecore #dcc7aa */
-.prueba{
-  /* display: flex; */
-  /* width: 33%; */
-}

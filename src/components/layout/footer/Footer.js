@@ -1,64 +1,80 @@
-import React from 'react';
+/* eslint-disable react/jsx-no-target-blank */
+import React, { Component } from 'react';
+import { Nav } from 'react-bootstrap';
+// import firebase from 'firebase';
+
 import github from '../../img/6github.png';
 import linkedin from '../../img/7linkedin.png';
 import behance from '../../img/8behance.png';
-import { Link } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
 
 import './Footer.css';
 
-const Footer = () => {
-  return (
-    <div className="footer">
-      <div className="footer-top">
-        <div className="navigation-left">
-          <Nav.Link className="item-bar" href="/projects">
-            Portfolio
-          </Nav.Link>
-          <Nav.Link className="item-bar" href="/cv">
-            About
-          </Nav.Link>
-          <Nav.Link className="item-bar" href="/contact">
-            Contact
-          </Nav.Link>
+class Footer extends Component {
+  // handleAuth = () => {
+  //   const provider = new firebase.auth.GoogleAuthProvider();
+
+  //   firebase
+  //     .auth()
+  //     .signInWithPopup(provider)
+  //     .then((result) => console.log(`${result.user.email} ha iniciado sesion`))
+  //     .catch((error) => console.log(`Error ${error.code}: ${error.message}`));
+  // };
+
+  render() {
+    return (
+      <div className="footer">
+        <div className="footer-top">
+          <div className="navigation-left">
+            <Nav.Link className="item-bar" href="/projects">
+              Portfolio
+            </Nav.Link>
+            <Nav.Link className="item-bar" href="/cv">
+              About
+            </Nav.Link>
+            <Nav.Link className="item-bar" href="/contact">
+              Contact
+            </Nav.Link>
+          </div>
+          <div className="navigation-center">
+            <a
+              href="https://github.com/johanBautista"
+              target="_blank"
+              className="style-icon"
+            >
+              <img src={github} alt="logo" className="style-icon" />
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/johan-bautista-parra/"
+              target="_blank"
+              className="style-icon"
+            >
+              <img src={linkedin} alt="logo" className="style-icon" />
+            </a>
+            <a
+              href="https://www.behance.net/johansbautist"
+              target="_blank"
+              className="style-icon"
+            >
+              <img src={behance} alt="logo" className="style-icon" />
+            </a>
+            {/* <button onClick={this.handleAuth}>enter</button> */}
+          </div>
+          <div className="footer-top-right">
+            <p>
+              Email:<span className="email"> jsbparra@gmail.com</span>
+            </p>
+          </div>
         </div>
-        <div className="navigation-center">
-          <a
-            href="https://github.com/johanBautista"
-            target="_blank"
-            className="style-icon"
-          >
-            <img src={github} alt="logo" className="style-icon" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/johan-bautista-parra/"
-            target="_blank"
-            className="style-icon"
-          >
-            <img src={linkedin} alt="logo" className="style-icon" />
-          </a>
-          <a
-            href="https://www.behance.net/johansbautist"
-            target="_blank"
-            className="style-icon"
-          >
-            <img src={behance} alt="logo" className="style-icon" />
-          </a>
-        </div>
-        <div className="footer-top-right">
+        <div className="footer-bottom">
+          <p className="copy">&copy; Johan Bautista 2020</p>
           <p>
-            Email:<span className="email"> jsbparra@gmail.com</span>
+            Team by<span className="team"> jBautista</span>
           </p>
         </div>
       </div>
-      <div className="footer-bottom">
-        <p className="copy">&copy; Johan Bautista 2020</p>
-        <p>
-          Team by<span className="team"> jBautista</span>
-        </p>
-      </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Footer;
