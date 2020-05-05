@@ -1,7 +1,14 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import foto1 from '../../../img/b-cv3.jpg';
-import foto2 from '../../../img/home.jpg';
+import ah1 from './imgweb/ah-1.png';
+import ah2 from './imgweb/ah-2.png';
+import ah3 from './imgweb/ah-3.png';
+import ok1 from './imgweb/ok-1.png';
+import ok2 from './imgweb/ok-2.png';
+import ok3 from './imgweb/ok-3.png';
+import lk1 from './imgweb/lk-1.png';
+import lk2 from './imgweb/lk-2.png';
+import lk3 from './imgweb/lk-3.png';
 
 const Carrusel = () => {
   return (
@@ -12,30 +19,23 @@ const Carrusel = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto1}
+                src={ah1}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>Aha! Moment</h3>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto2}
+                src={ah2}
                 alt="Secondd slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto1}
+                src={ah3}
                 alt="Third slide"
               />
-
-              <Carousel.Caption>
-                <h3>Aha! Moment</h3>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
           <h4 className="carrusel-title"> Aha! Moment </h4>
@@ -52,30 +52,23 @@ const Carrusel = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto1}
+                src={ok1}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>OkToPlay</h3>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto2}
+                src={ok2}
                 alt="Secondd slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto1}
+                src={ok3}
                 alt="Third slide"
               />
-
-              <Carousel.Caption>
-                <h3>OkToPlay</h3>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
           <h4 className="carrusel-title">OkToPlay</h4>
@@ -94,30 +87,23 @@ const Carrusel = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto1}
+                src={lk1}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>Lucky</h3>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto2}
+                src={lk2}
                 alt="Secondd slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100 size-img"
-                src={foto1}
+                src={lk3}
                 alt="Third slide"
               />
-
-              <Carousel.Caption>
-                <h3>Lucky</h3>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
           <h4 className="carrusel-title">Lucky</h4>

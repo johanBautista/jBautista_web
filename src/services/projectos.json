@@ -60,5 +60,19 @@
     "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/fc-1.png?alt=media&token=e0ae5335-169e-4427-a1e5-917b225c2064",
     "titulo": "Web Responsive",
     "url": "https://www.behance.net/gallery/94458879/Responsive-Web-freeCodeCamp"
+  },
+  {
+    "description": "Video Marketing",
+    "id": "7",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/cc-1.png?alt=media&token=fc9c5080-55e7-445e-abca-9978638dd5b9",
+    "titulo": "Cafe Central",
+    "url": "https://www.youtube.com/watch?v=PQKWb62JsAg"
+  },
+  {
+    "description": "Certicated freeCodeCamp",
+    "id": "8",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/fc-1.png?alt=media&token=e0ae5335-169e-4427-a1e5-917b225c2064",
+    "titulo": "Web Responsive",
+    "url": "https://www.behance.net/gallery/94458879/Responsive-Web-freeCodeCamp"
   }
 ]
