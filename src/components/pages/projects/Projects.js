@@ -5,30 +5,9 @@ import { Card } from 'react-bootstrap';
 import './Project.css';
 import base from '../../../services/projectos';
 
-// const API = 'https://webjohan-59a0f.firebaseio.com/.json';
-
-console.log('info-json:', base);
 
 class Projects extends Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     projects: [],
-  //   };
-  // }
-
-  // componentDidMount() {
-  //   fetch(API)
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //     });
-  // }
-
   render() {
-    // const { data } = this.props;
-    // console.log(data);
-
     return (
       <div className="container projects">
         <h3>Projects start</h3>

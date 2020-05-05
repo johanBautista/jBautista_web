@@ -29,7 +29,6 @@ const Contact = () => {
               <Form.Control
                 type="name"
                 placeholder="Your name"
-                // style={{ borderBottom: '1px solid #2966a3' }}
               />
             </Form.Group>
             <Form.Group controlId="exampleForm.ControlInput1">

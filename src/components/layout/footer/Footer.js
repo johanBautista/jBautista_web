@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React, { Component } from 'react';
 import { Nav } from 'react-bootstrap';
-// import firebase from 'firebase';
 
 import github from '../../img/6github.png';
 import linkedin from '../../img/7linkedin.png';
@@ -10,16 +9,6 @@ import behance from '../../img/8behance.png';
 import './Footer.css';
 
 class Footer extends Component {
-  // handleAuth = () => {
-  //   const provider = new firebase.auth.GoogleAuthProvider();
-
-  //   firebase
-  //     .auth()
-  //     .signInWithPopup(provider)
-  //     .then((result) => console.log(`${result.user.email} ha iniciado sesion`))
-  //     .catch((error) => console.log(`Error ${error.code}: ${error.message}`));
-  // };
-
   render() {
     return (
       <div className="footer">
@@ -58,7 +47,6 @@ class Footer extends Component {
             >
               <img src={behance} alt="logo" className="style-icon" />
             </a>
-            {/* <button onClick={this.handleAuth}>enter</button> */}
           </div>
           <div className="footer-top-right">
             <p>
