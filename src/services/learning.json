@@ -1,0 +1,37 @@
+[
+  {
+    "description": "Breaking Bad Quotes",
+    "id": "a1",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/breaking%20copy.png?alt=media&token=b5959eec-c354-4053-9cae-de62914597bb",
+    "titulo": "Breaking Bad",
+    "url": "https://breakingbadquotes-react.netlify.app/"
+  },
+  {
+    "description": "General expenses",
+    "id": "a2",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/gasto.png?alt=media&token=1cbf9eca-b91c-4a55-9153-f639807f503d",
+    "titulo": "Gasto Semanal",
+    "url": "https://gastosemanal-react.netlify.app/"
+  },
+  {
+    "description": "Price cryptocurrencies",
+    "id": "a3",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/cripto.png?alt=media&token=41a56f9a-904e-4f7f-878f-182c8d78a104",
+    "titulo": "Cripto-Price",
+    "url": "https://cripto-price.netlify.app/"
+  },
+  {
+    "description": "Search News",
+    "id": "a4",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/noticias.png?alt=media&token=ae96bca5-ced0-41e5-a6dc-59c306e1e00d",
+    "titulo": "News",
+    "url": "https://inoticias-react.netlify.app/"
+  },
+  {
+    "description": "Cocktail recipes",
+    "id": "a5",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/cocktails.png?alt=media&token=a3b17901-cdf0-4a38-a2df-64196fa4239a",
+    "titulo": "Cocktails",
+    "url": "https://bebidas-react.netlify.app/"
+  }
+]

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button, Form } from 'react-bootstrap';
+import React, { Fragment } from 'react';
+import { Button } from 'react-bootstrap';
 import imgAboutme from '../../img/aboutme.jpg';
 import imgWhyme from '../../img/whyme.jpg';
 import './Home.css';
@@ -8,7 +8,7 @@ import Carrusel from '../curriculum/carrusel/Carrusel';
 
 const Home = () => {
   return (
-    <div>
+    <Fragment>
       <div className="img-home">
         <div className="text-center container">
           <h1 className="title-home">Frontend Developer</h1>
@@ -21,9 +21,7 @@ const Home = () => {
           <Button variant="dark">My Experience</Button>
         </div>
       </div>
-      <p className="footer-img">foto de unsplash</p>
 
-      {/* /////////////// */}
       <div className="container">
         <div className="about-section">
           <div className="display-home">
@@ -56,41 +54,19 @@ const Home = () => {
           <h2 className="">Technologies</h2>
           <Technologies />
         </div>
-
-        <div className="why-section">
-          <div className="display-home">
-            <img src={imgWhyme} alt="cambio" className="foto-why" />
-            <div className="why-info">
-              <h2 className="titulo">Why me?</h2>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia, Lorem ipsum
-                dolor, sit amet consectetur adipisicing elit. Nesciunt quia,
-                cupiditate ullam asperiores officia.abs
-              </p>
-
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-            </div>
-          </div>
+      </div>
+      <div className="why-section">
+        <div className="display-home">
+          <img src={imgWhyme} alt="cambio" className="foto-why" />
         </div>
-
+      </div>
+      <div className="container">
         <div className="project-section">
           <h2>Projects</h2>
           <Carrusel />
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
 

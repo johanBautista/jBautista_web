@@ -1,5 +1,5 @@
 .projects {
-  margin: 15% 0;
+  margin: 10% 0 5% 0;
 }
 .img {
   height: 300px;
@@ -25,13 +25,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: radial-gradient(
-    circle,
-    #940303c2,
-    #880808c9,
-    #930303be,
-    #4400008a
-  );
+  background-color: #162332;
   color: rgba(255, 255, 255, 0.829);
   visibility: hidden;
   opacity: 0;
@@ -55,7 +49,22 @@
 .img__wrap:hover .img__description {
   transform: translateY(0);
 }
+.udemy-learning {
+  background-color: #162332;
+  text-align: center;
+  color: white;
+  padding: 3% 0;
+}
+.titulo-learning {
+  padding: 20px 0;
+}
+.contenedor-learning {
+  padding: 0 5%;
+}
 
+.titulo-tutor h2 {
+  padding-bottom: 50px;
+}
 @media only screen and (max-width: 570px) {
   .grid-container {
     display: block;

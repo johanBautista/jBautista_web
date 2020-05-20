@@ -37,7 +37,8 @@
   border-radius: 50%;
 }
 .foto-why {
-  width: 60%;
+  width: 100%;
+  height: 65vh;
 }
 
 /*---------------- css form  */
