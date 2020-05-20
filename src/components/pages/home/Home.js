@@ -90,36 +90,6 @@ const Home = () => {
           <Carrusel />
         </div>
       </div>
-      {/* /////////////// */}
-
-      <div className="form img-contact">
-        <div className="formo">
-          <h2 className="">Contact me</h2>
-
-          <Form className="contact-form card">
-            <Form.Group>
-              <Form.Control
-                type="name"
-                placeholder="Your name"
-                // style={{ borderBottom: '1px solid #2966a3' }}
-              />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlInput1">
-              <Form.Control type="email" placeholder="Your email" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-              <Form.Control
-                as="textarea"
-                rows="3"
-                placeholder="Your text here"
-              />
-            </Form.Group>
-            <Button variant="dark" type="submit">
-              Submit
-            </Button>
-          </Form>
-        </div>
-      </div>
     </div>
   );
 };

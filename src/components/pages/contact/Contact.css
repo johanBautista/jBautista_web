@@ -2,8 +2,8 @@ body,
 html {
   height: 100%;
 }
-.img-form{
-   background-image: url('../../img/prueba.png');
+.img-form {
+  background-image: url('../../img/prueba.png');
   height: 83vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,6 +34,7 @@ textarea.form-control {
   border: transparent !important;
   border-bottom: tomato solid;
 }
+
 @media only screen and (max-width: 990px) {
   .container-contact {
     display: block;
@@ -45,4 +46,3 @@ textarea.form-control {
     margin-left: 0;
   }
 }
-

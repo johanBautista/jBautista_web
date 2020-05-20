@@ -20,9 +20,9 @@ class Footer extends Component {
             <Nav.Link className="item-bar" href="/cv">
               About
             </Nav.Link>
-            <Nav.Link className="item-bar" href="/contact">
+            {/* <Nav.Link className="item-bar" href="/contact">
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
           </div>
           <div className="navigation-center">
             <a

@@ -2,7 +2,6 @@ import React from 'react';
 import './Curriculum.css';
 import Languages from './languages/Languages';
 import Technologies from './technologies/Technologies';
-import { Link } from 'react-router-dom';
 
 import imgLanguages from '../../img/languages.jpg';
 import Carrusel from './carrusel/Carrusel';
@@ -29,9 +28,8 @@ const Curriculum = () => {
 
         <div className="sect-techn">
           <h3>Technologies</h3>
-          <Link>
-            <Technologies className="card-skill" />
-          </Link>
+
+          <Technologies className="card-skill" />
         </div>
 
         <div className="sect-languages">

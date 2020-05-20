@@ -23,9 +23,9 @@ const navbar = () => {
             <Nav.Link className="item-bar" href="/cv">
               About
             </Nav.Link>
-            <Nav.Link className="item-bar" href="/contact">
+            {/* <Nav.Link className="item-bar" href="/contact">
               Contact
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Navbar>
