@@ -61,7 +61,10 @@
 .contenedor-learning {
   padding: 0 5%;
 }
-
+.toto img{
+  width: auto auto;
+  /* height: 100%; */
+}
 .titulo-tutor h2 {
   padding-bottom: 50px;
 }

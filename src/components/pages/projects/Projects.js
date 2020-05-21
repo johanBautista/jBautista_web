@@ -63,7 +63,11 @@ class Projects extends Component {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <Card.Img variant="top" src={learning.img} />
+                      <Card.Img
+                        variant="top"
+                        src={learning.img}
+                        className="toto"
+                      />
                       <Card.Body className="img__description_layer">
                         <Card.Title>{learning.titulo}</Card.Title>
                         <Card.Text>{learning.description}</Card.Text>
