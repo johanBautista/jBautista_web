@@ -8,13 +8,21 @@
 }
 .line-style {
   width: 100%;
-  border-bottom: rgba(204, 204, 204, 0.705) 2px solid;
+  border-bottom: darkgoldenrod 2px solid;
 }
 .text-center {
   color: rgb(255, 255, 255);
   position: relative;
 }
 
+.title-home {
+  color: darkgray;
+  font-size: 3rem;
+}
+
+.skills-title {
+  font-size: x-large;
+}
 /* ----------------css sections  */
 .about-section,
 .stack-section,
@@ -30,17 +38,26 @@
 .about-info {
   text-align: justify;
   padding: 0 20px;
+  margin-right: 40px;
 }
 
 .foto-about {
-  width: 30%;
-  border-radius: 50%;
+  margin: 50px -20px;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 9px 10px 13px 2px darkgrey;
 }
 .foto-why {
   width: 100%;
   height: 65vh;
 }
 
+.stack-section {
+  background-color: #162332;
+  padding: 50px;
+  text-align: center;
+  color: #aaaaaa;
+}
 /*---------------- css form  */
 .img-contact {
   background: url('../../img/contact.jpg') no-repeat center;

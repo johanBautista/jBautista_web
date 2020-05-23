@@ -5,6 +5,7 @@ import imgWhyme from '../../img/whyme.jpg';
 import './Home.css';
 import Technologies from '../curriculum/technologies/Technologies';
 import Carrusel from '../curriculum/carrusel/Carrusel';
+import { Animated } from 'react-animated-css';
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
           <h1 className="title-home">Frontend Developer</h1>
 
           <div className="line-style"></div>
-          <p>
+          <p className='skills-title'>
             - Javascript, MongoDB, Express, React, Node.js, HTML, CSS, ES6,
             Typescript, Angular -
           </p>
@@ -25,34 +26,67 @@ const Home = () => {
       <div className="container">
         <div className="about-section">
           <div className="display-home">
-            <div className="about-info">
-              <h2 className="">About me</h2>
-              <p>
-                ♦︎ After working as an audiovisual technician I decided to
-                deepen the bases of Frontend and Backend development and
-                integrate my knowledge to web development
-              </p>
-              <p>
-                ♦︎ I am a decisive person who likes to share and learn from
-                other professionals dedicated to digital projects, I like agile
-                methodologies as well as development in MERN and MEAN Stack
-              </p>
-              <p>
-                ♦︎ Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-              <p>
-                ♦︎ Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Nesciunt quia, cupiditate ullam asperiores officia
-              </p>
-            </div>
-            <img src={imgAboutme} alt="cambio" className="foto-about" />
-          </div>
-        </div>
+            <Animated
+              animationIn="fadeInLeft"
+              animationInDuration={3000}
+              // animationOut="fadeOut"
+              isVisible={true}
+            >
+              <div className="about-info">
+                <Animated
+                  animationIn="fadeIn"
+                  animationInDuration={3000}
+                  // animationOut="fadeOut"
+                  isVisible={true}
+                >
+                  <h2 className="">About me</h2>
+                </Animated>
 
-        <div className="stack-section">
-          <h2 className="">Technologies</h2>
-          <Technologies />
+                <p>
+                  Hello my name is Johan, and a year ago I started my journey in
+                  the world of web development, what you will see on my website
+                  are my first projects but I am very clear that they will not
+                  be the last, in this last year I have learned the evolution of
+                  the sector IT and I have also managed to develop my first
+                  applications.
+                </p>
+
+                <p>
+                  I have written code from the Backend to the Frontend and I am
+                  constantly researching the news, tips, good practices and
+                  other tips that help improve not only my code quality but also
+                  the user experience. I am not only a programmer, I have also
+                  worked as an audiovisual producer and sound technician, I come
+                  from multimedia and I am sure that I can add to your company.
+                </p>
+                <Animated
+                  animationIn="fadeInLeft"
+                  animationInDuration={3000}
+                  // animationOut="fadeOut"
+                  isVisible={true}
+                >
+                  <p>
+                    I am a brave person and committed to challenges, I like to
+                    share and learn from my colleagues. I have a decisive and
+                    methodical profile and right now I focus on the MERN stack
+                  </p>
+
+                  <p>
+                    Thank you for visiting me, I will be happy to contribute to
+                    your projects.
+                  </p>
+                </Animated>
+              </div>
+            </Animated>
+            <Animated
+              animationIn="fadeInRight"
+              animationInDuration={3000}
+              // animationOut="fadeOut"
+              isVisible={true}
+            >
+              <img src={imgAboutme} alt="cambio" className="foto-about" />
+            </Animated>
+          </div>
         </div>
       </div>
       <div className="why-section">
@@ -65,6 +99,10 @@ const Home = () => {
           <h2>Projects</h2>
           <Carrusel />
         </div>
+      </div>
+      <div className="stack-section">
+        <h2 className="">Technologies</h2>
+        <Technologies />
       </div>
     </Fragment>
   );

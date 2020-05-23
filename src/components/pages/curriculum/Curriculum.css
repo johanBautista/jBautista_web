@@ -20,15 +20,17 @@
 }
 .sect-experience,
 .sect-techn {
-  margin-top: 20%;
-  margin-bottom: 25%;
+  margin-top: 8%;
+  margin-bottom: 5%;
 }
 .justify-carrusel {
   display: flex;
   justify-content: space-around;
 }
 .carrusel {
+  padding: 15px;
   width: 25%;
+  box-shadow: 9px 9px 36px -3px darkgrey;
 }
 .size-img {
   height: 25vh;
@@ -95,4 +97,3 @@
   tambien molaria hacer otra vista en donde se muestre mi trayectoria como las ramas de git esto 
   entreo en una vista y ya pa flipar q en cada punto explique lo q he aprendido como si fuesen commits
   */
-

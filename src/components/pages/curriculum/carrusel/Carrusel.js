@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Carousel } from 'react-bootstrap';
 import ah1 from './imgweb/ah-1.png';
 import ah2 from './imgweb/ah-2.png';
@@ -12,7 +12,7 @@ import lk3 from './imgweb/lk-3.png';
 
 const Carrusel = () => {
   return (
-    <div>
+    <Fragment>
       <div className="justify-carrusel">
         <section className="carrusel">
           <Carousel className="container-small">
@@ -115,7 +115,7 @@ const Carrusel = () => {
           <small>Javascript, Canvas, HTML, CSS</small>
         </section>
       </div>
-    </div>
+    </Fragment>
   );
 };
 

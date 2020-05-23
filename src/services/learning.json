@@ -16,7 +16,7 @@
   {
     "description": "Price cryptocurrencies",
     "id": "a3",
-    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/cripto.png?alt=media&token=41a56f9a-904e-4f7f-878f-182c8d78a104",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/1cripto.png?alt=media&token=c9cdeebc-77a0-4620-89b9-62556ad16ab3",
     "titulo": "Cripto-Price",
     "url": "https://cripto-price.netlify.app/"
   },
@@ -30,7 +30,7 @@
   {
     "description": "Cocktail recipes",
     "id": "a5",
-    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/cocktails.png?alt=media&token=a3b17901-cdf0-4a38-a2df-64196fa4239a",
+    "img": "https://firebasestorage.googleapis.com/v0/b/webjohan-59a0f.appspot.com/o/2bebida.png?alt=media&token=98d6b7be-b8ed-4f5f-925c-574a8ba60e0e",
     "titulo": "Cocktails",
     "url": "https://bebidas-react.netlify.app/"
   }

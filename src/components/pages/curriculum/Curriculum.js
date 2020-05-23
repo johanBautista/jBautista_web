@@ -25,13 +25,14 @@ const Curriculum = () => {
           <h2 className="">Education</h2>
           <div className="education foto-block"></div>
         </div>
+      </section>
 
-        <div className="sect-techn">
-          <h3>Technologies</h3>
+      <div className="sect-techn stack-section">
+        <h3>Technologies</h3>
 
-          <Technologies className="card-skill" />
-        </div>
-
+        <Technologies className="card-skill" />
+      </div>
+      <section className="container-lg">
         <div className="sect-languages">
           <div className="languages">
             <img src={imgLanguages} alt="cambio" className="foto-language" />
