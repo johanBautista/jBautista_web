@@ -15,11 +15,14 @@ const Home = () => {
           <h1 className="title-home">Frontend Developer</h1>
 
           <div className="line-style"></div>
-          <p className='skills-title'>
+          <p className="skills-title">
             - Javascript, MongoDB, Express, React, Node.js, HTML, CSS, ES6,
             Typescript, Angular -
           </p>
-          <Button variant="dark">My Experience</Button>
+          <Button variant="dark" href="projects
+          ">
+            My Experience
+          </Button>
         </div>
       </div>
 
@@ -95,7 +98,7 @@ const Home = () => {
         </div>
       </div>
       <div className="container">
-        <div className="project-section">
+        <div className="project-section" id="project">
           <h2>Projects</h2>
           <Carrusel />
         </div>
