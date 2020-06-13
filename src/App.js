@@ -14,22 +14,10 @@ function App() {
       <Navbar />
 
       <Switch>
-        <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
-        <Route
-          exact
-          path={`${process.env.PUBLIC_URL}/projects`}
-          component={Projects}
-        />
-        <Route
-          exact
-          path={`${process.env.PUBLIC_URL}/cv`}
-          component={Curriculum}
-        />
-
-        {/* <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
-        <Route exact path="/cv" component={Curriculum} /> */}
-        {/* <Route path="**" component={NotFound} /> */}
+        <Route exact path="/cv" component={Curriculum} />
+        <Route path="**" component={NotFound} />
       </Switch>
 
       <Footer />
