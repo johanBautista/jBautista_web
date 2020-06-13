@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92dc34814fd5adfd87e591b910e9a72c",
+    "revision": "7dc16b47c346d3bf2f17fd64ba109c43",
     "url": "/jBautista_web/index.html"
   },
   {
-    "revision": "b7a5448ee13d6e830980",
+    "revision": "9ad324121d18ac2d16c5",
     "url": "/jBautista_web/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "ba96939c4aa05e977af0",
+    "revision": "e7f32aecd122f3066989",
     "url": "/jBautista_web/static/css/main.2f54e132.chunk.css"
   },
   {
-    "revision": "b7a5448ee13d6e830980",
-    "url": "/jBautista_web/static/js/2.2cb5b930.chunk.js"
+    "revision": "9ad324121d18ac2d16c5",
+    "url": "/jBautista_web/static/js/2.f700fed8.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/jBautista_web/static/js/2.2cb5b930.chunk.js.LICENSE.txt"
+    "url": "/jBautista_web/static/js/2.f700fed8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba96939c4aa05e977af0",
-    "url": "/jBautista_web/static/js/main.a4f9ca9b.chunk.js"
+    "revision": "e7f32aecd122f3066989",
+    "url": "/jBautista_web/static/js/main.f9a324ad.chunk.js"
   },
   {
     "revision": "1a4edafb6d103f03ae6d",

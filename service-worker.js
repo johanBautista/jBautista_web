@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jBautista_web/precache-manifest.7c359db4fda637686d020757c2f051d6.js"
+  "/jBautista_web/precache-manifest.a78e4676d3c185c32a740d8abdc71334.js"
 );
 
 self.addEventListener('message', (event) => {
