@@ -67,10 +67,10 @@ const Carrusel = () => {
               <img className="d-block w-100 size-img" src={lk3} alt="Third slide" />
             </Carousel.Item>
           </Carousel>
-          <h4 className="carrusel-title">Lucky</h4>
+          <h4 className="carrusel-title">Lucky pingu game!</h4>
           <small>Jun 2019 – Jul 2019 </small>
           <p className="carrusel-description">
-            Lucky is an arcade game clone where the avatar must avoid snakes and eat sushi. This work is created with Js
+            Lucky pingu! is an arcade game clone where the avatar must avoid snakes and eat sushi. This work is created with Js
             DOM and POO
           </p>
           <small>Javascript, Canvas, HTML, CSS</small>
