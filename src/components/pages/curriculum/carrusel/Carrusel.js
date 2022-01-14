@@ -49,8 +49,8 @@ const Carrusel = () => {
           <h4 className="carrusel-title">OkTo-Heavy-Metal</h4>
           <small>Aug 2019 – Sep 2019</small>
           <p className="carrusel-description">
-            OkToPlay is an application that connects Music Bands with local Establishments and lists all the upcoming
-            Events in Town.
+            Ok-To Heavy- Metal is the best, an application that connects Music Bands with local Establishments and lists
+            all the upcoming Events in Town.
           </p>
           <small>NodeJS, MongoDB, ExpressJS, SASS, Handlebars, Git colaborative.</small>
         </section>
