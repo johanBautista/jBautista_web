@@ -1,12 +1,14 @@
-import React from 'react';
-import './Curriculum.css';
-import Languages from './languages/Languages';
-import Technologies from './technologies/Technologies';
+import React from "react";
+import "./Curriculum.css";
+import Languages from "./languages/Languages";
+import Technologies from "./technologies/Technologies";
 
-import imgLanguages from '../../img/languages.jpg';
-import Carrusel from './carrusel/Carrusel';
+import imgLanguages from "../../img/languages.jpg";
+import Carrusel from "./carrusel/Carrusel";
+import useGaTracker from "../../../useGaTracker";
 
 const Curriculum = () => {
+  useGaTracker();
   return (
     <section>
       <section className=" container ">

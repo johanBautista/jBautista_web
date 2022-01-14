@@ -1,14 +1,16 @@
-import React from 'react';
-import './App.css';
-import Navbar from './components/layout/navbar/Navbar';
-import Footer from './components/layout/footer/Footer';
-import NotFound from './components/layout/NotFound';
-import Home from './components/pages/home/Home';
-import Projects from './components/pages/projects/Projects';
-import Curriculum from './components/pages/curriculum/Curriculum';
-import { Switch, Route } from 'react-router-dom';
+import React from "react";
+import "./App.css";
+import Navbar from "./components/layout/navbar/Navbar";
+import Footer from "./components/layout/footer/Footer";
+import NotFound from "./components/layout/NotFound";
+import Home from "./components/pages/home/Home";
+import Projects from "./components/pages/projects/Projects";
+import Curriculum from "./components/pages/curriculum/Curriculum";
+import { Switch, Route } from "react-router-dom";
+import useGaTracker from "./useGaTracker";
 
 function App() {
+  useGaTracker();
   return (
     <div className="App">
       <Navbar />
