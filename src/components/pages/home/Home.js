@@ -57,7 +57,7 @@ const Home = () => {
                   first applications.
                 </p>
 
-                <p>
+                <p className="bg-warning p-2">
                   I have written code from the Backend to the Frontend and I am constantly researching the news, tips,
                   good practices and other tips that help improve not only my code quality but also the user experience.
                   I am not only a programmer, I have also worked as an audiovisual producer and sound technician, I come
