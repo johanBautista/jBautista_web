@@ -50,7 +50,7 @@ const Home = () => {
                   <h2 className="">About me</h2>
                 </Animated>
 
-                <p>
+                <p className="bg-warning p-2">
                   Hello my name is Johan, and a year ago I started my journey in the world of web development, what you
                   will see on my website are my first projects but I am very clear that they will not be the last, in
                   this last year I have learned the evolution of the sector IT and I have also managed to develop my
